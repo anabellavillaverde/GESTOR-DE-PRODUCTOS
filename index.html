@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Lista de Productos</h1>
+
+    
+    <form id="formulario">
+      <input type="text" id="nombre" placeholder="Nombre del producto" required>
+      
+      <select id="categoria" required>
+        <option value="">Seleccionar categoría</option>
+        <option value="Alimentos">Alimentos</option>
+        <option value="Ropa">Ropa</option>
+        <option value="Electrónica">Electrónica</option>
+        <option value="Otro">Otro</option>
+      </select>
+
+      <input type="number" id="precio" placeholder="Precio" required>
+      <button type="submit">Agregar</button>
+    </form>
+
+    <!-- TABLA PARA MOSTRAR LOS PRODUCTOS -->
+    <table>
+      
+      <tbody id="tabla-productos">
+
+    </tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
