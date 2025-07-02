@@ -1,8 +1,12 @@
 # GESTOR-DE-PRODUCTOS
 App web para gestionar productos con localStorage
 
-tarea1_formulario contiene el HTML
+Las tareas están divididas por ramas:
 
-tarea2_app contiene el JS
+tarea1_formulario: estructura HTML
 
-tarea3_style contiene el CSS”
+tarea2_app: código JavaScript
+
+tarea3_style: estilos CSS
+
+
